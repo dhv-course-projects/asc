@@ -1,0 +1,10 @@
+.dept-courses{
+    width: 60%;
+}
+
+table.dept-courses > tbody > tr > td{
+    cursor: pointer;
+}
+table.dept-courses > tbody > tr:hover{
+    background-color: #30315ccb;
+}

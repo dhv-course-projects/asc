@@ -1,0 +1,15 @@
+.dept-list{
+    width: 60%;
+}
+
+table.dept-list > tbody > tr > td:nth-child(1){
+    width: 60%;
+    cursor: pointer;
+}
+table.dept-list > tbody > tr > td:nth-child(2){
+    width: 40%;
+}
+
+table.dept-list > tbody > tr > td:nth-child(1):hover{
+    background-color: #30315ccb;
+}

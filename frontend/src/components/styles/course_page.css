@@ -1,0 +1,75 @@
+.prereqs{
+    width: 80%;
+}
+
+.course-info-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+
+table.course-info-basic{
+    border: 1px solid rgb(89, 171, 120);
+    border-radius: 6px;
+    font-weight: 250;
+    width: 40%
+}
+
+.course-prereq-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+table.prereqs > tbody > tr > td{
+    cursor: pointer;
+}
+
+table.prereqs > tbody > tr:hover{
+    background-color: #30315ccb;
+}
+
+table.section-list{
+    width: 70%;
+}
+
+table.section-list > tbody > tr > td:nth-child(2){
+    cursor: pointer;
+}
+table.section-list > tbody > tr > td:nth-child(2):hover{
+    background-color: #30315ccb;
+}
+
+select{
+    margin: 10px;
+    width: 180px;
+    height: 47px;
+    
+    padding: 8px;
+    border-radius: 5px;
+
+    background-color: #3E439F;
+    color: white;
+    font-family: inherit;
+    font-size: calc(10px + 2vmin);
+    font-weight: 500;
+}
+option{
+    cursor: pointer;
+    width: 200px;
+    padding: 4px;
+    margin: 2px;
+
+    border: none;
+    
+    background-color: #282828cd;
+    font-size: calc(10px + 1.5vmin);
+    font-weight: 300;
+}
+option:hover{
+    background-color: #30315ccb;
+}

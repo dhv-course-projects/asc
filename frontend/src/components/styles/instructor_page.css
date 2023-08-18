@@ -1,0 +1,15 @@
+.instructor-info-basic{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.instructor-courses{
+    width: 65%;
+}
+
+.clickable-link{
+    cursor: pointer;
+}
+.clickable-link:hover{
+    background-color: #3E439F55;
+}

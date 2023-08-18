@@ -1,0 +1,57 @@
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+th{
+    background-color: #025436;
+}
+td{
+    font-weight: 250;
+}
+
+table{
+    margin: auto;
+    border: 1px solid rgb(89, 171, 120);
+    border-radius: 6px;
+}
+
+tr:nth-child(odd) {
+    background-color: #303134;
+}
+
+.table-header{
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    color: cadetblue;
+    font-size: calc(10px + 2vmin);
+    font-weight: 500;
+}
+
+
+.course-by-semester{
+    width: 60%;
+}
+table.course-by-semester > tbody > tr > td:nth-child(1){
+    width: 15%;
+}
+table.course-by-semester > tbody > tr > td:nth-child(2){
+    cursor: pointer;
+}
+table.course-by-semester > tbody > tr > td:nth-child(2):hover{
+    background-color: #3E439F55;
+}
+table.course-by-semester > tbody > tr > td:nth-child(3){
+    width: 15%;
+}
+table.course-by-semester > tbody > tr > td:nth-child(4){
+    width: 10%;
+}
+table.course-by-semester > tbody > tr > td:nth-child(5){
+    width: 10%;
+}
+
+.course-by-semester2{
+    width: 80%;
+}
